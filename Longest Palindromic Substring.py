@@ -5,7 +5,7 @@
 # Output: "illi"
 
 class Solution: 
-    def longestPalindrome(self, s):
+    def longestPalindrome(self, s): #Runtime = O(n^2) where n is length of string
       # Fill this in.
       result = ""
       

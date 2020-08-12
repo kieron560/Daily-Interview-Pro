@@ -8,7 +8,7 @@
 
 
 class Solution:
-  def lengthOfLongestSubstring(self, s):
+  def lengthOfLongestSubstring(self, s): #Runtime = O(n) where n is length of string
     # Fill this in.
     start = 0 # Starting index of the string s
     result = 0 # Final Value we are returning

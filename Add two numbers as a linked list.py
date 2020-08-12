@@ -12,7 +12,7 @@ class ListNode(object):
 
 class Solution:
 
-  def addTwoNumbers(self, l1, l2, c = 0):
+  def addTwoNumbers(self, l1, l2, c = 0): #Runtime = O(n) where n is length of list
     # Fill this in.
     answer = ListNode(c) # Creates the answer linked list
     result = answer # pointer to the first node to be returned
